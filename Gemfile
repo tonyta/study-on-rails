@@ -11,6 +11,9 @@ gem "pry-rails"
 group :development, :test do
   gem "pry-doc"
   gem "pry-byebug"
+
+  gem "rspec-rails"
+  gem "spring-commands-rspec"
 end
 
 group :development do
