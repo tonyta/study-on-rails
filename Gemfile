@@ -23,3 +23,8 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen"
 end
+
+group :test do
+  gem "capybara"
+  gem "selenium-webdriver"
+end
