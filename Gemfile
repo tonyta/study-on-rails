@@ -5,6 +5,8 @@ gem "rails"
 gem "pg"
 gem "puma"
 
+gem "webpacker"
+
 gem "bootsnap", require: false
 gem "pry-rails"
 
