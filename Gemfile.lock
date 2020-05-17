@@ -109,6 +109,9 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rack_session_access (0.2.0)
+      builder (>= 2.0.0)
+      rack (>= 1.0.0)
     rails (5.2.4.2)
       actioncable (= 5.2.4.2)
       actionmailer (= 5.2.4.2)
@@ -203,6 +206,7 @@ DEPENDENCIES
   pry-doc
   pry-rails
   puma
+  rack_session_access
   rails
   rspec-rails
   selenium-webdriver
