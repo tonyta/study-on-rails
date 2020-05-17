@@ -7,6 +7,8 @@ gem "puma"
 
 gem "webpacker"
 
+gem "bcrypt"
+
 gem "bootsnap", require: false
 gem "pry-rails"
 
